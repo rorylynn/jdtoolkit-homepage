@@ -8,19 +8,69 @@
 		<link rel="stylesheet" href="styles.css" type="text/css" />
 	</head>
 
+	<style>
+		 nav ul {
+			 padding:10%;
+			 display: flex;
+			 justify-content: space-around;
+
+		 }
+
+		 li {
+			 display: inline;
+			 float: left;
+		}
+
+		li a {
+			display: block;
+			color:goldenrod;
+			text-align: center;
+			padding: 14px 16px;
+		}
+
+		.parallax {
+  /* The image used */
+  background-image: url("unnamed.jpg");
+
+  /* Set a specific height */
+  height: 50px;
+  width: ;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+	</style>
+
+
 	<!-- Navbar -->
 <div class="w3-top">
 	<div class="w3-bar w3-black w3-card">
-	  <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-	  <a href="index.html" class="w3-bar-item w3-button w3-padding-large">Home</a>
-	  <a href="flyer.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Flyer</a>
-	  <a href="photos.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Photos</a>
-	  <a href="editedphotos.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Edited Photos</a>
+	<ul>
+	  <li><a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a></li>
+	  <li><a href="index.html" class="w3-bar-item w3-button w3-padding-large">Home</a></li>
+	  <li><a href="flyer.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Flyer</a></li>
+	  <li><a href="photos.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Photos</a></li>
+	  <li><a href="editedphotos.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Edited Photos</a></li>
 	  </div>
 	  <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
-	</div>
+	</ul>
+
   </div>
   
+<!-- Container element -->
+<div class="parallax"></div>
+       </head>
+   
+       <body>
+
+            <div class="parallax-container">
+                    <div class="parallax"><img src="unnamed.jpg"></div>
+                    </div>
+                </div>
 
   
 
@@ -28,7 +78,6 @@
 
 		<h1 class="main-hed">This webpage is by Rory Rucker</h1>
 		
-		<a href="RuckerLogo.png"><img class="logo" src="RuckerLogo.png"></a>
 		
 		<p>This is a paragraph. I can alter it to say other things if I want to.</p>
 
@@ -36,7 +85,9 @@
 
 		<p>Eu nisl nunc mi ipsum faucibus. Lectus arcu bibendum at varius vel pharetra vel. Mauris pharetra et ultrices neque ornare aenean euismod elementum nisi. Aliquet risus feugiat in ante metus. Est velit egestas dui id ornare arcu. Nec nam aliquam sem et. Ultricies tristique nulla aliquet enim tortor at. Consequat nisl vel pretium lectus quam id leo. Orci phasellus egestas tellus rutrum tellus pellentesque. Posuere ac ut consequat semper. Ut consequat semper viverra nam libero justo laoreet. Euismod elementum nisi quis eleifend quam adipiscing vitae proin.</p>
 
+		
+		  
+
 	</body>
 
 </html>
-
