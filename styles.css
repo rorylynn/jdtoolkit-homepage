@@ -1,16 +1,19 @@
 body {
-	background-color: white;
+	background-image: nice_snow.png;
 	margin: 1em auto;
 	font-size: 10px;
 	padding: 1em;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
+	color: lightpink;
 }
 
 h1 {
-	color: white;
-	font-size: 50px;
+	color: lightpink;
 	font-family: 'Petit Formal Script', cursive;
+	text-align: right;
+	font-size: 50px
+	position: relative;
 }
 
 a {
@@ -37,28 +40,40 @@ img.logo {
 }
 
 ul {
-	color: goldenrod; 
+	color: black; 
 	font-size: 1.8em;
-	text-align: center;
+	text-align: left;
 }
 
 div {
 	font-size: x-large;
-	padding: 3ch;
+	padding: 0pc;
+	border-color: black;
 	
 nav {
 	height: 48px;
+	text-align: left; 
 
 }
 nav ul{
-	padding:10%;
+	padding: 0%;
 	display: flex;
 	justify-content: space-around;
-    color: goldenrod;
+    color: white;
 	list-style-type: none;
 }
 nav li {
 	display: inline-block;
 	height: 100%; 
-	padding: 10px;
+	padding: 0px;
+	float: left;
 }
+
+.navigation {
+	top: 10px;
+	position: absolute; 
+	margin-top: 0px;
+	padding: 0ch;
+	
+}
+
