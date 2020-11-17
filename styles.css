@@ -62,11 +62,15 @@ nav ul{
     color: white;
 	list-style-type: none;
 }
-nav li {
-	display: inline-block;
-	height: 100%; 
-	padding: 0px;
-	float: left;
+   li {
+              display: inline;
+              text-align: center;
+              font-family: 'EB Garamond', serif;
+              padding: 10px; 
+              border: white; 
+              font-size: 20px;
+              color: white; 
+          }
 }
 
 .navigation {
